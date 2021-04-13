@@ -7,18 +7,19 @@
     .navlist {
         list-style: none;
         text-decoration: solid;
-        margin-left: 30rem;
+        margin-left: 42rem;
         text-align: right;
-        padding-top: 1rem;
         font-size: 1.2rem;
+        margin-top: 2rem;
     }
     
     .navbar {
-        height: 20vh;
+        height: 10vh;
         margin-inline-start: 1rem;
         background-color: rgb(25, 148, 230);
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
+        display: flex;
     }
     
     .navbar .navlist .inline {
@@ -155,12 +156,12 @@
     }
     
     .all-footer {
-        padding: 2vh;
+        padding: 1vh;
         margin-inline-start: 1rem;
         background-color: rgb(25, 148, 230);
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
-        margin-block: 2rem;
+        margin-block: 0.1rem;
     }
     
     .nav-heading {
@@ -284,8 +285,8 @@
     
     .nav-heading {
         color: white;
-        padding-top: 1rem;
         margin-left: 4rem;
+        margin-top: 1rem;
     }
     
     .all-footer {
