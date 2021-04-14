@@ -355,13 +355,45 @@
     margin-top: 4rem;
 }
 
-.projects-div {}
+.projectbox4 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 32rem;
+    margin-right: 62px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+}
+
+.projectbox5 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 32rem;
+    margin-right: 62px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+}
 
 .projects-btn {
     color: white;
     margin-bottom: 20px;
     margin-left: 14rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     text-decoration: none;
     font-size: var(--fontSize-1);
     padding: 0.5em;
