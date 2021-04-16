@@ -56,8 +56,8 @@
     height: 30vh;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -73,6 +73,7 @@
 .para1 {
     text-align: center;
     font-size: large;
+    text-transform: capitalize;
 }
 
 .box2 {
@@ -82,8 +83,8 @@
     height: 30vh;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -119,11 +120,13 @@
 .para2 {
     text-align: center;
     font-size: large;
+    text-transform: capitalize;
 }
 
 .para3 {
     text-align: center;
     font-size: large;
+    text-transform: capitalize;
 }
 
 .image {
@@ -306,8 +309,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 7rem;
-    margin-right: 62px;
+    margin-left: 9rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -315,6 +317,7 @@
     position: inherit;
     padding-top: 1rem;
     margin-top: 4rem;
+    text-transform: capitalize;
 }
 
 .projectbox2 {
@@ -324,7 +327,6 @@
     width: 70vh;
     margin-bottom: 4rem;
     margin-left: 10rem;
-    margin-right: 62px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -332,6 +334,7 @@
     position: inherit;
     padding-top: 1rem;
     margin-top: 4rem;
+    text-transform: capitalize;
 }
 
 .projectbox3 {
@@ -340,8 +343,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 7rem;
-    margin-right: 62px;
+    margin-left: 9rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -349,6 +351,7 @@
     position: inherit;
     padding-top: 1rem;
     margin-top: 4rem;
+    text-transform: capitalize;
 }
 
 .projectbox4 {
@@ -358,7 +361,6 @@
     width: 70vh;
     margin-bottom: 4rem;
     margin-left: 10rem;
-    margin-right: 62px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -366,6 +368,7 @@
     position: inherit;
     padding-top: 1rem;
     margin-top: 4rem;
+    text-transform: capitalize;
 }
 
 .projectbox5 {
@@ -374,8 +377,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 32rem;
-    margin-right: 62px;
+    margin-left: 9rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -383,13 +385,31 @@
     position: inherit;
     padding-top: 1rem;
     margin-top: 4rem;
+    text-transform: capitalize;
+}
+
+.projectbox6 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    text-transform: capitalize;
 }
 
 .projects-btn {
     color: white;
     margin-bottom: 20px;
-    margin-left: 14rem;
-    margin-top: 10rem;
+    margin-left: 12rem;
+    margin-top: 20rem;
     text-decoration: none;
     font-size: var(--fontSize-1);
     padding: 0.5em;
@@ -400,5 +420,4 @@
 
 .box12 {
     display: inline-flex;
-    margin-left: 10px;
 }
