@@ -200,6 +200,7 @@
     position: inherit;
     text-transform: capitalize;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .homebox2 {
@@ -216,6 +217,7 @@
     border-top-right-radius: 1rem;
     text-transform: capitalize;
     height: 35vh;
+    padding-bottom: 2rem;
 }
 
 .homebox3 {
@@ -232,6 +234,7 @@
     border-top-right-radius: 1rem;
     text-transform: capitalize;
     height: 35vh;
+    padding-bottom: 2rem;
 }
 
 .project-btn {
@@ -407,7 +410,6 @@
 
 .projects-btn {
     color: white;
-    margin-bottom: 20px;
     margin-left: 12rem;
     margin-top: 20rem;
     text-decoration: none;
