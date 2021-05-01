@@ -53,11 +53,11 @@
     padding-top: 1rem;
     display: block;
     background-color: #E5E7EB;
-    height: 30vh;
+    height: 35vh;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: 450px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -80,11 +80,11 @@
     padding-top: 1rem;
     display: block;
     background-color: #E5E7EB;
-    height: 30vh;
+    height: 35vh;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: 450px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -94,15 +94,16 @@
 .box3 {
     display: block;
     background-color: #E5E7EB;
-    height: 40vh;
+    height: 35vh;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-left: 62px;
-    margin-right: 62px;
+    margin-left: 450px;
+    margin-right: 450px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    padding-top: 1rem;
 }
 
 .heading2 {
