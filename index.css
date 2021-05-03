@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+.body {
+    box-sizing: inherit;
+    color: black;
+    font-family: 'Arvo', serif;
+}
+
 .inline {
     display: inline;
     padding: 1rem;
@@ -34,12 +40,6 @@
 
 .navlist :hover {
     color: black;
-}
-
-.body {
-    box-sizing: inherit;
-    color: black;
-    font-family: 'Poppins', sans-serif;
 }
 
 .footer .footer-link {
@@ -189,7 +189,7 @@
 .homebox1 {
     display: block;
     background-color: #E5E7EB;
-    height: 30vh;
+    height: 35vh;
     width: 70vh;
     margin-bottom: 16px;
     margin-left: 62px;
@@ -207,7 +207,7 @@
 .homebox2 {
     display: block;
     background-color: #E5E7EB;
-    height: 50vh;
+    height: 40vh;
     width: 70vh;
     margin-top: 16px;
     margin-left: 62px;
@@ -217,14 +217,13 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     text-transform: capitalize;
-    height: 35vh;
     padding-bottom: 2rem;
 }
 
 .homebox3 {
     display: block;
     background-color: #E5E7EB;
-    height: 50vh;
+    height: 40vh;
     width: 70vh;
     margin-bottom: 16px;
     margin-left: 62px;
@@ -234,7 +233,6 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     text-transform: capitalize;
-    height: 35vh;
     padding-bottom: 2rem;
 }
 
@@ -313,7 +311,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -330,7 +328,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -347,7 +345,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -364,7 +362,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -381,7 +379,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -398,7 +396,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -415,7 +413,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 30rem;
+    margin-left: 33rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -428,8 +426,8 @@
 
 .projects-btn {
     color: white;
-    margin-left: 12rem;
-    margin-top: 20rem;
+    margin-left: 14rem;
+    margin-top: 22rem;
     text-decoration: none;
     font-size: var(--fontSize-1);
     padding: 0.5em;
