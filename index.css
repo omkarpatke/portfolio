@@ -534,18 +534,3 @@ body * {
     display: inline-flex;
 }
 
-@media only screen and (max-width:700px) {
-    nav ul {
-        width: 100%;
-        background: rgb(25, 148, 230);
-        position: absolute;
-        top: 75px;
-        right: 0;
-        z-index: 2;
-    }
-    nav ul li {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
