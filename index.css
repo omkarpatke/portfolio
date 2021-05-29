@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.body,
+body * {
+    align-items: center;
+
+   font-family: "Arvo", serif;
     box-sizing: inherit;
     color: black;
-    font-family: 'Arvo', serif;
+}
+.blogBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 
 .inline {
@@ -14,7 +24,7 @@
 .navlist {
     list-style: none;
     text-decoration: solid;
-    margin-left: 42rem;
+    margin-left: 38rem;
     text-align: right;
     font-size: 1.2rem;
     margin-top: 2rem;
@@ -62,6 +72,7 @@
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    box-shadow: 1px 2px 3px;
 }
 
 .heading1 {
@@ -89,21 +100,39 @@
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    box-shadow: 1px 2px 3px;
 }
 
 .box3 {
     display: block;
     background-color: #E5E7EB;
-    height: 35vh;
+    height: 39vh;
     margin-top: 64px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     margin-left: 450px;
     margin-right: 450px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 1px 2px 3px;
+}
+
+.box4 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 39vh;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 1px 2px 3px;
 }
 
 .heading2 {
@@ -162,7 +191,7 @@
 }
 
 .all-footer {
-    padding: 1vh;
+    padding: 0.5vh;
     margin-inline-start: 1rem;
     background-color: rgb(25, 148, 230);
     border-top-left-radius: 1rem;
@@ -202,12 +231,13 @@
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 1rem;
+    box-shadow: 1px 2px 3px;
 }
 
 .homebox2 {
     display: block;
     background-color: #E5E7EB;
-    height: 40vh;
+    height: 36vh;
     width: 70vh;
     margin-top: 16px;
     margin-left: 62px;
@@ -218,12 +248,13 @@
     border-top-right-radius: 1rem;
     text-transform: capitalize;
     padding-bottom: 2rem;
+    box-shadow: 1px 2px 3px;
 }
 
 .homebox3 {
     display: block;
     background-color: #E5E7EB;
-    height: 40vh;
+    height: 36vh;
     width: 70vh;
     margin-bottom: 16px;
     margin-left: 62px;
@@ -234,6 +265,8 @@
     border-top-right-radius: 1rem;
     text-transform: capitalize;
     padding-bottom: 2rem;
+     box-shadow: 1px 2px 3px;
+
 }
 
 .project-btn {
@@ -242,7 +275,7 @@
     background-color: rgb(25, 148, 230);
     border-radius: 0.5em;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     text-decoration: none;
 }
 
@@ -311,7 +344,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -320,6 +353,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox2 {
@@ -328,7 +362,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -337,6 +371,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox3 {
@@ -345,7 +380,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -354,6 +389,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox4 {
@@ -362,7 +398,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -371,6 +407,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox5 {
@@ -379,7 +416,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -388,6 +425,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox6 {
@@ -396,7 +434,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -405,6 +443,7 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projectbox7 {
@@ -413,7 +452,7 @@
     height: 30vh;
     width: 70vh;
     margin-bottom: 4rem;
-    margin-left: 33rem;
+    margin-left: 10rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -422,12 +461,67 @@
     padding-top: 1rem;
     margin-top: 4rem;
     text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
+}
+
+.projectbox8 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
+}
+
+.projectbox9 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
+}
+
+.projectbox10 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 30vh;
+    width: 70vh;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: inherit;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    text-transform: capitalize;
+    box-shadow: 1px 2px 3px;
 }
 
 .projects-btn {
     color: white;
-    margin-left: 14rem;
-    margin-top: 22rem;
+    margin-left: 12rem;
+    margin-top: 26rem;
     text-decoration: none;
     font-size: var(--fontSize-1);
     padding: 0.5em;
@@ -438,4 +532,20 @@
 
 .box12 {
     display: inline-flex;
+}
+
+@media only screen and (max-width:700px) {
+    nav ul {
+        width: 100%;
+        background: rgb(25, 148, 230);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
