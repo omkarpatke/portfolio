@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 .body,
 body * {
+  align-items: center;
+
   font-family: "Arvo", serif;
   box-sizing: inherit;
   color: black;
+}
+.blogBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
 }
 
 .inline {
@@ -63,6 +72,7 @@ body * {
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .heading1 {
@@ -90,6 +100,7 @@ body * {
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .box3 {
@@ -105,6 +116,23 @@ body * {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   padding-top: 0.5rem;
+  box-shadow: 1px 2px 3px;
+}
+
+.box4 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 39vh;
+  margin-top: 64px;
+  margin-bottom: 20px;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding-top: 0.5rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .heading2 {
@@ -163,7 +191,7 @@ body * {
 }
 
 .all-footer {
-  padding: 1vh;
+  padding: 0.5vh;
   margin-inline-start: 1rem;
   background-color: rgb(25, 148, 230);
   border-top-left-radius: 1rem;
@@ -203,6 +231,7 @@ body * {
   text-transform: capitalize;
   text-align: center;
   padding-bottom: 1rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .homebox2 {
@@ -219,6 +248,7 @@ body * {
   border-top-right-radius: 1rem;
   text-transform: capitalize;
   padding-bottom: 2rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .homebox3 {
@@ -235,6 +265,7 @@ body * {
   border-top-right-radius: 1rem;
   text-transform: capitalize;
   padding-bottom: 2rem;
+  box-shadow: 1px 2px 3px;
 }
 
 .project-btn {
@@ -321,6 +352,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox2 {
@@ -338,6 +370,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox3 {
@@ -355,6 +388,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox4 {
@@ -372,6 +406,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox5 {
@@ -389,6 +424,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox6 {
@@ -406,6 +442,7 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projectbox7 {
@@ -414,7 +451,7 @@ body * {
   height: 30vh;
   width: 70vh;
   margin-bottom: 4rem;
-  margin-left: 30rem;
+  margin-left: 10rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
@@ -423,6 +460,61 @@ body * {
   padding-top: 1rem;
   margin-top: 4rem;
   text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+
+.projectbox8 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 30vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+
+.projectbox9 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 30vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+
+.projectbox10 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 30vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
 }
 
 .projects-btn {
