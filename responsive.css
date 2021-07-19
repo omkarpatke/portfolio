@@ -7,8 +7,14 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: 25vh;
+    height: 22vh;
     overflow: auto;
+  }
+  .inline {
+    margin: 1rem;
+  }
+  .nav-heading {
+    margin-bottom: -2rem;
   }
   .color {
     display: flex;
@@ -18,7 +24,7 @@
   .navlist {
     display: flex;
     justify-content: center;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
   .homebox1 {
     display: flex;
