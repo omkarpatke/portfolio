@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: fit-content;
+    height: 25vh;
     overflow: auto;
   }
   .color {
@@ -23,7 +23,7 @@
   .homebox1 {
     display: flex;
     flex-direction: column;
-    height: 21vh;
+    height: 40vh;
     width: 57vw;
     margin: 4rem;
     justify-content: center;
@@ -37,12 +37,12 @@
   .homebox2 {
     display: flex;
     flex-direction: column;
-    height: 21vh;
+    height: 40vh;
     width: 59vw;
     margin: -5rem;
     justify-content: center;
     margin-bottom: -4rem;
-    margin-left: 4rem;
+    margin-left: 2.1rem;
     padding: 2rem;
   }
   .blog-img {
@@ -54,19 +54,20 @@
   .homebox3 {
     display: flex;
     flex-direction: column;
-    height: 24vh;
+    height: 44vh;
     width: 59vw;
     margin: 3rem;
     justify-content: center;
-    margin-left: -10rem;
+    margin-left: -1rem;
     padding: 2rem;
   }
   footer {
-    height: 5rem;
+    padding: 2rem;
   }
   .footer-heading {
     text-align: center;
     font-size: 2rem;
+    padding: 1rem;
   }
 
   /*project part*/
@@ -75,58 +76,58 @@
     flex-direction: row;
   }
   .projectbox1 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox2 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox3 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox4 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox5 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox6 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox7 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox8 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox9 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .projectbox10 {
-    height: 26vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
   }
   .heading1 {
     margin: 2rem;
-    margin-top: -1rem;
+    margin-top: 0.5rem;
   }
   .projects-btn {
     margin: auto;
@@ -139,40 +140,40 @@
   }
   .box1 {
     width: 72vw;
-    height: 25vh;
+    height: 38vh;
     margin: 3rem;
     padding: 1rem;
   }
   .heading2 {
-    padding: 2rem;
+    padding: 1rem;
   }
   .box2 {
     width: 72vw;
-    height: 25vh;
+    height: 44vh;
     margin: 3rem;
     padding: 1rem;
   }
   .box3 {
     width: 72vw;
-    height: 25vh;
+    height: 38vh;
     margin: 3rem;
     padding: 1rem;
   }
   .box4 {
     width: 72vw;
-    height: 25vh;
+    height: 38vh;
     margin: 3rem;
     padding: 1rem;
   }
   .box5 {
     width: 72vw;
-    height: 25vh;
+    height: 38vh;
     margin: 3rem;
     padding: 1rem;
   }
   .box6 {
     width: 72vw;
-    height: 25vh;
+    height: 38vh;
     margin: 3rem;
     padding: 1rem;
   }
