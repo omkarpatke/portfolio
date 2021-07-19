@@ -73,7 +73,15 @@
   /*project part*/
 
   .box12 {
-    flex-direction: row;
+    flex-direction: column;
+    overflow: scrool;
+    justify-self: center;
+  }
+  .projects-div {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: -8rem;
   }
   .projectbox1 {
     height: 35vh;
@@ -155,7 +163,7 @@
   }
   .box3 {
     width: 72vw;
-    height: 38vh;
+    height: 42vh;
     margin: 3rem;
     padding: 1rem;
   }

@@ -6,6 +6,8 @@ body * {
   font-family: "Arvo", serif;
   box-sizing: inherit;
   color: black;
+  padding: o;
+  margin: 0;
 }
 .blogBox {
   display: flex;
