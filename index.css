@@ -7,12 +7,24 @@ body * {
     box-sizing: inherit;
     color: black;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .blogBox{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+}
+.index-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+align-items:center ;
+justify-content: space-between;
 }
 
 .inline {
@@ -31,7 +43,7 @@ body * {
 }
 
 .navbar {
-    height: 10vh;
+    min-height: 10vh;
     margin-inline-start: 1rem;
     background-color: rgb(25, 148, 230);
     border-bottom-left-radius: 1rem;
@@ -42,6 +54,7 @@ body * {
 .navbar .navlist .inline {
     color: white;
 }
+
 
 .color {
     color: white;
@@ -119,6 +132,7 @@ body * {
     box-shadow: 1px 2px 3px;
 }
 
+
 .box4 {
     display: block;
     background-color: #E5E7EB;
@@ -134,6 +148,44 @@ body * {
     padding-top: 0.5rem;
     box-shadow: 1px 2px 3px;
 }
+.box5 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 39vh;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 1px 2px 3px;
+}
+.box6 {
+    display: block;
+    background-color: #E5E7EB;
+    height: 39vh;
+    margin-top: 64px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 1px 2px 3px;
+}
+
+.for-flex {
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
 
 .heading2 {
     text-align: center;
@@ -163,6 +215,7 @@ body * {
     text-align: center;
     size: small;
 }
+
 
 .container1 {
     text-align: center;
@@ -272,11 +325,14 @@ body * {
 .project-btn {
     font-size: var(--fontSize-1);
     padding: 0.5em;
-    background-color: rgb(25, 148, 230);
-    border-radius: 0.5em;
     color: white;
+    border-radius: 0.5em;
+    background-color: rgb(25, 148, 230);
     margin-bottom: 35px;
     text-decoration: none;
+}
+.project-btn:hover{
+    color: black;
 }
 
 .blog-btn {
@@ -287,6 +343,9 @@ body * {
     color: white;
     text-decoration: none;
 }
+.blog-btn:hover{
+    color: black;
+}
 
 .read {
     font-size: var(--fontSize-1);
@@ -295,6 +354,9 @@ body * {
     border-radius: 0.5em;
     color: white;
     text-decoration: none;
+}
+.read:hover{
+    color: black;
 }
 
 .boxcontainer {
@@ -528,6 +590,9 @@ body * {
     background-color: rgb(25, 148, 230);
     border-radius: 0.5em;
     font-size: 1.2rem;
+}
+.projects-btn:hover{
+    color: black;
 }
 
 .box12 {
