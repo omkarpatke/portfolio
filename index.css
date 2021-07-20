@@ -39,7 +39,7 @@ body * {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   display: flex;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .navbar .navlist .inline {
@@ -82,12 +82,14 @@ body * {
   text-align: center;
   font-size: xx-large;
   color: rgb(25, 148, 230);
+  padding: 1rem;
 }
 
 .para1 {
   text-align: center;
   font-size: large;
   text-transform: capitalize;
+  margin-bottom: 2rem;
 }
 
 .box2 {
@@ -142,6 +144,11 @@ body * {
   text-align: center;
   font-size: xx-large;
   color: rgb(25, 148, 230);
+  margin-bottom: 2rem;
+}
+.heading2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .heading3 {
@@ -182,6 +189,7 @@ body * {
 .footer-heading {
   text-align: center;
   font-size: 2rem;
+  padding: 1rem;
 }
 
 .footer {
@@ -270,6 +278,23 @@ body * {
   padding-bottom: 2rem;
   box-shadow: 1px 2px 3px;
 }
+.sourcecode-btn {
+  font-size: var(--fontSize-1);
+  padding: 0.6em;
+  background-color: white;
+  border-radius: 0.5em;
+  color: rgb(25, 148, 230);
+  margin-bottom: 35px;
+  text-decoration: none;
+  border: 2px solid;
+}
+.sourcecode-btn:hover {
+  background-color: wheat;
+}
+.btns {
+  padding: 1rem;
+  margin-left: -4rem;
+}
 
 .project-btn {
   font-size: var(--fontSize-1);
@@ -280,6 +305,9 @@ body * {
   margin-bottom: 35px;
   text-decoration: none;
 }
+.project-btn:hover {
+  background-color: rgb(19, 114, 177);
+}
 
 .blog-btn {
   font-size: var(--fontSize-1);
@@ -289,6 +317,9 @@ body * {
   color: white;
   text-decoration: none;
 }
+.blog-btn:hover {
+  background-color: rgb(19, 114, 177);
+}
 
 .read {
   font-size: var(--fontSize-1);
@@ -297,6 +328,12 @@ body * {
   border-radius: 0.5em;
   color: white;
   text-decoration: none;
+}
+.read:hover {
+  background-color: rgb(19, 114, 177);
+}
+.projects-btn:hover {
+  background-color: rgb(19, 114, 177);
 }
 
 .boxcontainer {
