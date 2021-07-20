@@ -287,13 +287,14 @@ body * {
   margin-bottom: 35px;
   text-decoration: none;
   border: 2px solid;
+  margin: 1rem;
 }
 .sourcecode-btn:hover {
   background-color: wheat;
 }
 .btns {
   padding: 1rem;
-  margin-left: -4rem;
+  margin-left: -4.5rem;
 }
 
 .project-btn {
