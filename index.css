@@ -558,6 +558,23 @@ body * {
   text-transform: capitalize;
   box-shadow: 1px 2px 3px;
 }
+.projectbox11 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 30vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 31rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
 
 .projects-btn {
   color: white;
