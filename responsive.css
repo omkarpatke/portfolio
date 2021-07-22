@@ -36,7 +36,7 @@
   .homebox1 {
     display: flex;
     flex-direction: column;
-    height: 54vh;
+    height: 50vh;
     width: 57vw;
     margin: 0rem;
     justify-content: center;
@@ -110,7 +110,7 @@
     margin-left: -8rem;
   }
   .projectbox1 {
-    height: 30vh;
+    height: 34vh;
     width: 85vw;
     display: flex;
     flex-direction: column;
