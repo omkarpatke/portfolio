@@ -40,6 +40,7 @@
     width: 57vw;
     margin: 0rem;
     justify-content: center;
+    place-items: center;
     padding: 2rem;
   }
   .me-img {
@@ -53,8 +54,9 @@
   .homebox2 {
     display: flex;
     flex-direction: column;
+    place-content: center;
     height: 50vh;
-    width: 59vw;
+    width: 57vw;
     margin: -5rem;
     margin-top: 1re;
     justify-content: center;
@@ -71,11 +73,12 @@
   .homebox3 {
     display: flex;
     flex-direction: column;
-    height: 51vh;
-    width: 59vw;
+    height: 52vh;
+    width: 57vw;
     margin: -1rem;
     justify-content: center;
-    margin-left: -2rem;
+    place-items: center;
+    margin-left: -4rem;
     padding: 2rem;
   }
   .container1 {
@@ -92,7 +95,10 @@
   .all-footer {
     color: white;
 
-    width: auto;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    place-content: flex-end;
   }
 
   /*project part*/
@@ -109,105 +115,114 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
-    margin-left: -8rem;
   }
   .projectbox1 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox2 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox3 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox4 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox5 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox6 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox7 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox8 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox9 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .projectbox10 {
-    height: 34vh;
-    width: 85vw;
+    height: 42vh;
+    width: 93vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox11 {
+    height: 42vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
