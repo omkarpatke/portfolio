@@ -472,7 +472,7 @@ body * {
 .projectbox6 {
   display: block;
   background-color: #e5e7eb;
-  height: auto;
+  height: 32vh;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -526,7 +526,7 @@ body * {
 .projectbox9 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -564,7 +564,7 @@ body * {
   height: 32vh;
   width: 70vh;
   margin-bottom: 4rem;
-  margin-left: 31rem;
+  margin-left: 10rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
@@ -574,6 +574,69 @@ body * {
   margin-top: 4rem;
   text-transform: capitalize;
   box-shadow: 1px 2px 3px;
+}
+.projectbox12 {
+  display: block;
+  background-color: #e5e7eb;
+  height: auto;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+.projectbox13 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 32vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+
+.projectbox14 {
+  display: block;
+  background-color: #e5e7eb;
+  height: 32vh;
+  width: 70vh;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: inherit;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 3px;
+}
+.projects-special-btn {
+  color: white;
+  margin-left: 16rem;
+  margin-top: 26rem;
+  text-decoration: none;
+  font-size: var(--fontSize-1);
+  padding: 0.5em;
+  background-color: rgb(25, 148, 230);
+  border-radius: 0.5em;
+  font-size: 1.2rem;
 }
 
 .projects-btn {
