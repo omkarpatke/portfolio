@@ -472,7 +472,7 @@ body * {
 .projectbox6 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -490,7 +490,7 @@ body * {
 .projectbox7 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -508,7 +508,7 @@ body * {
 .projectbox8 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -544,7 +544,7 @@ body * {
 .projectbox10 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
