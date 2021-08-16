@@ -19,6 +19,12 @@
     /* justify-content: center; */
     margin-left: 1rem;
   }
+  .index-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .section {
     margin: 3rem;
   }
@@ -58,10 +64,10 @@
     height: 50vh;
     width: 57vw;
     margin: -5rem;
-    margin-top: 1re;
+
     justify-content: center;
     margin-bottom: -4rem;
-    margin-left: -1.1rem;
+    margin-left: 5.2rem;
     padding: 2rem;
   }
   .blog-img {
@@ -78,7 +84,7 @@
     margin: -1rem;
     justify-content: center;
     place-items: center;
-    margin-left: -4rem;
+    margin-right: 7rem;
     padding: 2rem;
   }
   .container1 {
@@ -115,6 +121,7 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
+    padding: 2rem;
   }
   .projectbox1 {
     height: 42vh;
@@ -226,11 +233,54 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  .projectbox12 {
+    height: 42vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox13 {
+    height: 42vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox14 {
+    height: 42vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox15 {
+    height: 42vh;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .heading1 {
     margin: 0rem;
     margin-top: -2rem;
   }
   .projects-btn {
+    margin: auto;
+  }
+  .projects-special-btn {
     margin: auto;
   }
 
