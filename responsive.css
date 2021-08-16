@@ -2,6 +2,7 @@
   * {
     margin: -8px;
     padding: 0;
+    overflow: hidden;
   }
   nav {
     display: flex;
@@ -81,7 +82,7 @@
     flex-direction: column;
     height: 52vh;
     width: 57vw;
-    margin: -1rem;
+    margin: 1rem;
     justify-content: center;
     place-items: center;
     margin-right: 7rem;
