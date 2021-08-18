@@ -124,7 +124,7 @@
     padding: 2rem;
   }
   .projectbox1 {
-    height: 35vh;
+    height: 32vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@
     margin-bottom: 1rem;
   }
   .projectbox2 {
-    height: 42vh;
+    height: 32vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
