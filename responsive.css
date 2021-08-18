@@ -42,7 +42,7 @@
   .homebox1 {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: auto;
     width: 57vw;
     margin: 0rem;
     justify-content: center;
