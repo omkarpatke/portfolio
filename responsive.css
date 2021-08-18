@@ -287,6 +287,10 @@
   /*blogs part*/
   .image-blog {
     height: 31vh;
+    margin-bottom: 2rem;
+  }
+  .read {
+    margin-bottom: 2rem;
   }
   .for-flex {
     justify-content: center;

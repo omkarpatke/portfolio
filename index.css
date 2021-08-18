@@ -330,6 +330,7 @@ body * {
   border-radius: 0.5em;
   color: white;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 .read:hover {
   background-color: rgb(19, 114, 177);
