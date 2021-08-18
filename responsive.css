@@ -125,7 +125,7 @@
   }
   .projectbox1 {
     height: auto;
-    width: 93vw;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
