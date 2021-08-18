@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
   * {
-    margin: -8px;
+    margin: 1px;
     padding: 0;
   }
   nav {
@@ -63,7 +63,7 @@
     place-content: center;
     height: 50vh;
     width: 57vw;
-    margin: -5rem;
+    margin: -4rem;
 
     justify-content: center;
     margin-bottom: -4rem;
