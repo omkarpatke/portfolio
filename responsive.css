@@ -14,7 +14,6 @@
     margin: 1rem;
   }
   .nav-heading {
-    margin-bottom: -2rem;
     margin-top: 0.4rem;
     /* justify-content: center; */
     margin-left: 1rem;
@@ -38,6 +37,7 @@
     display: flex;
     justify-content: center;
     margin-left: 1rem;
+    margin-top: 0px;
   }
   .homebox1 {
     display: flex;
@@ -63,11 +63,8 @@
     place-content: center;
     height: auto;
     width: 57vw;
-    margin: -4rem;
-
     justify-content: center;
-    margin-bottom: -4rem;
-    margin-left: 5.3rem;
+    margin: auto;
     padding: 2rem;
   }
   .blog-img {
@@ -81,11 +78,10 @@
     flex-direction: column;
     height: auto;
     width: 57vw;
-    margin: 1rem;
     justify-content: center;
     place-items: center;
-    margin-right: 7.7rem;
     padding: 2rem;
+    margin: auto;
   }
   .container1 {
     padding-top: 1rem;

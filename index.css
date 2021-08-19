@@ -9,6 +9,7 @@ body * {
   padding: o;
   margin: 0;
 }
+
 .blogBox {
   display: flex;
   flex-direction: column;
@@ -352,6 +353,7 @@ body * {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 5rem;
+  margin-right: 2rem;
 }
 
 .image {
