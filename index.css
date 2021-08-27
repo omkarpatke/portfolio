@@ -9,7 +9,6 @@ body * {
   padding: o;
   margin: 0;
 }
-
 .blogBox {
   display: flex;
   flex-direction: column;
@@ -232,7 +231,7 @@ body * {
   display: block;
   background-color: #e5e7eb;
   height: 35vh;
-  width: 74vh;
+  width: 70vh;
   margin-bottom: 16px;
   margin-left: 62px;
   margin-right: 62px;
@@ -251,7 +250,7 @@ body * {
   display: block;
   background-color: #e5e7eb;
   height: 36vh;
-  width: 73vh;
+  width: 70vh;
   margin-top: 16px;
   margin-left: 62px;
   margin-right: 62px;
@@ -268,7 +267,7 @@ body * {
   display: block;
   background-color: #e5e7eb;
   height: 36vh;
-  width: 73vh;
+  width: 70vh;
   margin-bottom: 16px;
   margin-left: 62px;
   margin-right: 62px;
@@ -331,9 +330,11 @@ body * {
   border-radius: 0.5em;
   color: white;
   text-decoration: none;
-  margin-bottom: 2rem;
 }
 .read:hover {
+  background-color: rgb(19, 114, 177);
+}
+.projects-btn:hover {
   background-color: rgb(19, 114, 177);
 }
 
@@ -353,7 +354,6 @@ body * {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 5rem;
-  margin-right: 2rem;
 }
 
 .image {
@@ -472,7 +472,7 @@ body * {
 .projectbox6 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -490,7 +490,7 @@ body * {
 .projectbox7 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -508,7 +508,7 @@ body * {
 .projectbox8 {
   display: block;
   background-color: #e5e7eb;
-  height: 32vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -526,7 +526,7 @@ body * {
 .projectbox9 {
   display: block;
   background-color: #e5e7eb;
-  height: 35vh;
+  height: 32vh;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -544,7 +544,7 @@ body * {
 .projectbox10 {
   display: block;
   background-color: #e5e7eb;
-  height: 35vh;
+  height: auto;
   width: 70vh;
   margin-bottom: 4rem;
   margin-left: 10rem;
@@ -561,75 +561,6 @@ body * {
 .projectbox11 {
   display: block;
   background-color: #e5e7eb;
-  height: 35vh;
-  width: 70vh;
-  margin-bottom: 4rem;
-  margin-left: 10rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  position: inherit;
-  padding-top: 1rem;
-  margin-top: 4rem;
-  text-transform: capitalize;
-  box-shadow: 1px 2px 3px;
-}
-.projectbox12 {
-  display: block;
-  background-color: #e5e7eb;
-  height: 35vh;
-  width: 70vh;
-  margin-bottom: 4rem;
-  margin-left: 10rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  position: inherit;
-  padding-top: 1rem;
-  margin-top: 4rem;
-  text-transform: capitalize;
-  box-shadow: 1px 2px 3px;
-}
-.projectbox13 {
-  display: block;
-  background-color: #e5e7eb;
-  height: 35vh;
-  width: 70vh;
-  margin-bottom: 4rem;
-  margin-left: 10rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  position: inherit;
-  padding-top: 1rem;
-  margin-top: 4rem;
-  text-transform: capitalize;
-  box-shadow: 1px 2px 3px;
-}
-
-.projectbox14 {
-  display: block;
-  background-color: #e5e7eb;
-  height: 35vh;
-  width: 70vh;
-  margin-bottom: 4rem;
-  margin-left: 10rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  position: inherit;
-  padding-top: 1rem;
-  margin-top: 4rem;
-  text-transform: capitalize;
-  box-shadow: 1px 2px 3px;
-}
-.projectbox15 {
-  display: block;
-  background-color: #e5e7eb;
   height: 32vh;
   width: 70vh;
   margin-bottom: 4rem;
@@ -644,20 +575,6 @@ body * {
   text-transform: capitalize;
   box-shadow: 1px 2px 3px;
 }
-.projects-special-btn {
-  color: white;
-  margin-left: 16rem;
-  margin-top: 26rem;
-  text-decoration: none;
-  font-size: var(--fontSize-1);
-  padding: 0.5em;
-  background-color: rgb(25, 148, 230);
-  border-radius: 0.5em;
-  font-size: 1.2rem;
-}
-.projects-special-btn:hover {
-  background-color: rgb(19, 114, 177);
-}
 
 .projects-btn {
   color: white;
@@ -669,10 +586,6 @@ body * {
   background-color: rgb(25, 148, 230);
   border-radius: 0.5em;
   font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-.projects-btn:hover {
-  background-color: rgb(19, 114, 177);
 }
 
 .box12 {
