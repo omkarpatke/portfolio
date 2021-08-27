@@ -1,26 +1,32 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   * {
-    margin: -8px;
+    margin: 0px;
     padding: 0;
   }
   nav {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    height: 19vh;
+    height: auto;
     overflow: auto;
   }
   .inline {
     margin: 1rem;
   }
   .nav-heading {
-    margin-bottom: -2rem;
-    margin-top: 2rem;
-    /* justify-content: center; */
+    margin-top: 0.4rem;
+
+    justify-content: center;
     margin-left: 1rem;
   }
+  .index-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .section {
-    margin: 3rem;
+    margin: 2rem;
   }
   .color {
     display: flex;
@@ -32,11 +38,12 @@
     display: flex;
     justify-content: center;
     margin-left: 1rem;
+    margin-top: -2rem;
   }
   .homebox1 {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: auto;
     width: 57vw;
     margin: 0rem;
     justify-content: center;
@@ -55,14 +62,12 @@
     display: flex;
     flex-direction: column;
     place-content: center;
-    height: 50vh;
+    height: auto;
     width: 57vw;
-    margin: -5rem;
-    margin-top: 1re;
     justify-content: center;
-    margin-bottom: -4rem;
-    margin-left: -1.1rem;
+    margin: auto;
     padding: 2rem;
+    margin-top: -2rem;
   }
   .blog-img {
     display: none;
@@ -73,13 +78,13 @@
   .homebox3 {
     display: flex;
     flex-direction: column;
-    height: 52vh;
+    height: auto;
     width: 57vw;
-    margin: -1rem;
     justify-content: center;
     place-items: center;
-    margin-left: -4rem;
     padding: 2rem;
+    margin: auto;
+    margin-top: -2rem;
   }
   .container1 {
     padding-top: 1rem;
@@ -115,9 +120,10 @@
     display: flex;
     flex-direction: column;
     justify-self: center;
+    padding: 2rem;
   }
   .projectbox1 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -127,7 +133,7 @@
     margin-bottom: 1rem;
   }
   .projectbox2 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -137,7 +143,7 @@
     margin-bottom: 1rem;
   }
   .projectbox3 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -147,7 +153,7 @@
     margin-bottom: 1rem;
   }
   .projectbox4 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -157,7 +163,7 @@
     margin-bottom: 1rem;
   }
   .projectbox5 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -167,7 +173,7 @@
     margin-bottom: 1rem;
   }
   .projectbox6 {
-    height: 42vh;
+    height: 35vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -177,7 +183,7 @@
     margin-bottom: 1rem;
   }
   .projectbox7 {
-    height: 42vh;
+    height: auto;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -187,7 +193,7 @@
     margin-bottom: 1rem;
   }
   .projectbox8 {
-    height: 42vh;
+    height: auto;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -197,7 +203,7 @@
     margin-bottom: 1rem;
   }
   .projectbox9 {
-    height: 42vh;
+    height: auto;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -207,7 +213,7 @@
     margin-bottom: 1rem;
   }
   .projectbox10 {
-    height: 42vh;
+    height: auto;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -217,7 +223,47 @@
     margin-bottom: 2rem;
   }
   .projectbox11 {
-    height: 42vh;
+    height: auto;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox12 {
+    height: auto;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox13 {
+    height: auto;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox14 {
+    height: auto;
+    width: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .projectbox15 {
+    height: 30vh;
     width: 93vw;
     display: flex;
     flex-direction: column;
@@ -233,18 +279,25 @@
   .projects-btn {
     margin: auto;
   }
+  .projects-special-btn {
+    margin: auto;
+  }
 
   /*blogs part*/
   .image-blog {
     height: 31vh;
+    margin-bottom: 2rem;
+  }
+  .read {
+    margin-bottom: 2rem;
   }
   .for-flex {
     justify-content: center;
   }
   .box1 {
     width: 72vw;
-    height: 41vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
   }
   .heading1 {
@@ -256,35 +309,35 @@
   }
   .box2 {
     width: 72vw;
-    height: 54vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
     margin-top: 0rem;
   }
   .box3 {
     width: 72vw;
-    height: 56vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
     margin-top: 0rem;
   }
   .box4 {
     width: 72vw;
-    height: 46vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
     margin-top: 0rem;
   }
   .box5 {
     width: 72vw;
-    height: 38vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
   }
   .box6 {
     width: 72vw;
-    height: 38vh;
-    margin: 3rem;
+    height: auto;
+    margin: 2.5rem;
     padding: 1rem;
   }
 }
