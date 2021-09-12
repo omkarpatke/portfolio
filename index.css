@@ -23,6 +23,9 @@ body * {
   padding: 1rem;
   margin-right: 4rem;
 }
+.me-img {
+  margin-left: 120px;
+}
 
 .navlist {
   list-style: none;
@@ -280,6 +283,7 @@ body * {
   padding-bottom: 2rem;
   box-shadow: 1px 2px 3px;
 }
+
 .sourcecode-btn {
   font-size: var(--fontSize-1);
   padding: 0.6em;
