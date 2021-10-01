@@ -10,6 +10,9 @@
     justify-self: center;
     height: auto;
     overflow: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
   }
   .inline {
     margin: 1rem;
